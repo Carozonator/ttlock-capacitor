@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/julio/Projects/ttlock-capacitor/android/ttlock-capacitor/src/main/assets"/><source path="/Users/julio/Projects/ttlock-capacitor/android/ttlock-capacitor/build/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/Users/julio/Projects/ttlock-capacitor/android/ttlock-capacitor/src/debug/assets"/></dataSet></merger>
