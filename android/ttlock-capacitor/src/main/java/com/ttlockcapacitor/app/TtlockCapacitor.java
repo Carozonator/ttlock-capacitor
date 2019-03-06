@@ -23,7 +23,7 @@ import com.ttlock.bl.sdk.scanner.ExtendedBluetoothDevice;
 
 @NativePlugin()
 public class TtlockCapacitor extends Plugin {
-    private  static String text = "";
+    private  static String text = "--EMPTY--";
 
     public TtlockCapacitor() {
         this.text = " culo sucio";
@@ -326,10 +326,10 @@ public class TtlockCapacitor extends Plugin {
     private Handler handler = new Handler();
     @PluginMethod()
     public void echo(PluginCall call) {
-        String value = call.getString("value");
+//        String value = call.getString("value");
 
         JSObject ret = new JSObject();
-        ret.put("value",value.concat(this.text));
+        ret.put("value",this.text);
         call.success(ret);
     }
 }
