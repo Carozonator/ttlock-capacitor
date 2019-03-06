@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: :ttlock-gateway-sdk-2.0:@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/ttlock-gateway-sdk-2.0.aar/bba0f3833ab3624a6655e2d2ed9fb221/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/ttlock-gateway-sdk-2.0.aar/bba0f3833ab3624a6655e2d2ed9fb221/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/ttlock-gateway-sdk-2.0.aar/bba0f3833ab3624a6655e2d2ed9fb221/jars/libs/hiflying-iots-android-smartlink-7.0.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

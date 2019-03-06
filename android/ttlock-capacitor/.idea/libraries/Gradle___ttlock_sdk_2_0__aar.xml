@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: :ttlock-sdk-2.0:@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/ttlock-sdk-2.0.aar/6078ac2f1d5ff6147059f03135f25b7e/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/ttlock-sdk-2.0.aar/6078ac2f1d5ff6147059f03135f25b7e/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

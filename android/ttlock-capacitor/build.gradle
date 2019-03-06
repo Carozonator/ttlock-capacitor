@@ -28,6 +28,11 @@ android {
     lintOptions {
         abortOnError false
     }
+    repositories {
+        flatDir {
+            dirs 'src/main/libs'
+        }
+    }
 }
 
 repositories {
@@ -41,7 +46,10 @@ repositories {
 
 
 dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation fileTree(include: ['*.jar','*.aar'], dir: 'libs')
+    //ttlock SDK
+    implementation (name: 'ttlock-sdk-2.0', ext: 'aar')
+    implementation (name: 'ttlock-gateway-sdk-2.0', ext: 'aar')
     implementation 'ionic-team:capacitor-android:1+'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
