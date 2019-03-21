@@ -11,12 +11,11 @@ export class TtlockCapacitorWeb extends WebPlugin {
     constructor() {
         super({
             name: 'TtlockCapacitor',
-            platforms: ['web', 'android']
+            platforms: ['web']
         });
     }
     echo(options) {
         return __awaiter(this, void 0, void 0, function* () {
-            console.log('ECHO', options);
             return options;
         });
     }

@@ -5,7 +5,7 @@ export class TtlockCapacitorWeb extends WebPlugin implements TtlockCapacitorPlug
   constructor() {
     super({
       name: 'TtlockCapacitor',
-      platforms: ['web', 'android']
+      platforms: ['web']
     });
   }
 

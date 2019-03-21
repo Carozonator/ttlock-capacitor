@@ -329,7 +329,7 @@ public class TtlockCapacitor extends Plugin {
 //        String value = call.getString("value");
 
         JSObject ret = new JSObject();
-        ret.put("value",this.text);
+        ret.put("noononono",this.text);
         call.success(ret);
     }
 }
