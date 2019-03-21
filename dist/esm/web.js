@@ -16,6 +16,7 @@ export class TtlockCapacitorWeb extends WebPlugin {
     }
     echo(options) {
         return __awaiter(this, void 0, void 0, function* () {
+            console.log('ECHO', options);
             return options;
         });
     }
